@@ -110,7 +110,6 @@ async def help_handler(client, msg):
         pesan += '/list_ban — melihat list banned\n'
         pesan += '/stats — melihat statistik bot\n'
         pesan += '/bot — setbot (on|off)\n'
-        pesan += '\n=====FITUR TALENT=====\n'
         pesan += '\n=====BROADCAST OWNER=====\n'
         pesan += '/broadcast — mengirim pesan broadcast kesemua user\n'
         pesan += '/admin — menambahkan admin baru\n'
