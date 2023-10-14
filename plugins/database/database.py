@@ -136,10 +136,7 @@ class Database():
             {"$set": {"status": f"member_{str(id_banned)}"}}
         )
         mycol.update_one(last_data, {"$set": {"ban": new_data}})
-
-    async def rate_moans_boy(self, id_talent: str, id_bot: int, coin: int):
-        last_data = {
-    
+        
     async def bot_handler(self, status: str):
         if status == 'on' or status == '<on>':
             bot_status = True
