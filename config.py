@@ -35,7 +35,7 @@ pic_girl = os.getenv("PIC_GIRL", "https://telegra.ph/file/cb885bcbf5081dbd45f27.
 
 pesan_join = os.getenv("PESAN_JOIN", "Halo Kamu harus bergabung di CHANNEL/GROUP Terlebih dahulu untuk mengirim pesan ke @BaseCPF")
 start_msg = os.getenv("START_MSG", """
-Halo (mention) 😍
+Halo {mention} 😍
 
 CPF Autopost bot adalah bot autopost, semua pesan yang dikirimkan ke bot ini akan otomatis dipost ke channel @BaseCPF, gunakan hastag dibawah untuk mengirim pesan:
 
@@ -52,7 +52,7 @@ rate coin Rp. 1000/100 coin
 """)
 
 gagalkirim_msg = os.getenv("GAGAL_KIRIM", """
-(mention) pesanmu gagal terkirim 🙅, harap gunakan hastag : 
+{mention} pesanmu gagal terkirim 🙅, harap gunakan hastag : 
 
 #FwbBoy / #FwbGirl : untuk mencari teman, pasangan, partner dll.
 #FwbAsk : untuk bertanya
