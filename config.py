@@ -3,57 +3,61 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-api_id = int(os.getenv("API_ID", "#"))
-api_hash = os.getenv("API_HASH", "#")
+api_id = int(os.getenv("API_ID", "29486311"))
+api_hash = os.getenv("API_HASH", "ffdc688dc4eee8d2585cb24155188432")
 bot_token = os.getenv("BOT_TOKEN", "#")
 # =========================================================== #
 
-db_url = os.getenv("DB_URL", "#")
-db_name = os.getenv("DB_NAME", "telegram") #bisa diganti sesuai kebutuhan
+db_url = os.getenv("DB_URL", "mongodb+srv://fadhil:fadhil123@cluster0.jvnx5r6.mongodb.net/?retryWrites=true&w=majority")
+db_name = os.getenv("DB_NAME", "fadhil") #bisa diganti sesuai kebutuhan
 # =========================================================== #
 
-channel_1 = int(os.getenv("CHANNEL_1", "#"))
-channel_2 = int(os.getenv("CHANNEL_2", "#")) #untuk group comentar user
-channel_log = int(os.getenv("CHANNEL_LOG", "#"))
+channel_1 = int(os.getenv("CHANNEL_1", "-1001976588675"))
+channel_2 = int(os.getenv("CHANNEL_2", "-1001610283560")) #untuk group comentar user
+channel_log = int(os.getenv("CHANNEL_LOG", "-1001710331413"))
 # =========================================================== #
 
-id_admin = int(os.getenv("ID_ADMIN", "907544310"))
+id_admin = int(os.getenv("ID_ADMIN", "957521020"))
 # =========================================================== #
 
-batas_kirim = int(os.getenv("BATAS_KIRIM", "5"))
-batas_talent = int(os.getenv("BATAS_TALENT", "10"))
-batas_daddy_sugar = int(os.getenv("BATAS_DADDY_SUGAR", "10"))
-batas_moansgirl = int(os.getenv("BATAS_MOANSGIRL", "10"))
-batas_moansboy = int(os.getenv("BATAS_MOANSBOY", "10"))
-batas_gfrent = int(os.getenv("BATAS_GFRENT", "10"))
-batas_bfrent = int(os.getenv("BATAS_BFRENT", "10"))
+batas_kirim = int(os.getenv("BATAS_KIRIM", "2"))
 # =========================================================== #
 
-biaya_kirim = int(os.getenv("BIAYA_KIRIM", "10"))
-biaya_talent = int(os.getenv("BIAYA_TALENT", "80"))
-biaya_daddy_sugar = int(os.getenv("BIAYA_DADDY_SUGAR", "70"))
-biaya_moansgirl = int(os.getenv("BIAYA_MOANSGIRL", "60"))
-biaya_moansboy = int(os.getenv("BIAYA_MOANSBOY", "50"))
-biaya_gfrent = int(os.getenv("BIAYA_GFRENT", "40"))
-biaya_bfrent = int(os.getenv("BIAYA_BFRENT", "30"))
+biaya_kirim = int(os.getenv("BIAYA_KIRIM", "20"))
 # =========================================================== #
 
-hastag = os.getenv("HASTAG", "#Girl #Boy #Ask #Find #Spill #Story").replace(" ", "|").lower()
+hastag = os.getenv("HASTAG", "#ss #aa #FwbBoy #FwbAsk #FwbGirl #FwbSpill #FwbStory").replace(" ", "|").lower()
 # =========================================================== #
 
 pic_boy = os.getenv("PIC_BOY", "https://telegra.ph/file/c67bd36023648dc777bd9.jpg")
 pic_girl = os.getenv("PIC_GIRL", "https://telegra.ph/file/cb885bcbf5081dbd45f27.jpg")
 # =========================================================== #
 
-pesan_join = os.getenv("PESAN_JOIN", "Tidak Dapat Diakses Harap Join Terlebih Dahulu")
-start_msg = os.getenv("START_MSG", "Hai {mention} 🌱\n\n<b>SM Menfess Bot</b> adalah Bot Auto Post, Semua Pesan Yang Kamu Kirim Akan Masuk Ke Channel @smmenfess Secara Anonymous. Untuk Bantuan Ketik /help")
+pesan_join = os.getenv("PESAN_JOIN", "Halo Kamu harus bergabung di CHANNEL/GROUP Terlebih dahulu untuk mengirim pesan ke @BaseCPF")
+start_msg = os.getenv("START_MSG", """
+Halo (mention) 😍
+
+CPF Autopost bot adalah bot autopost, semua pesan yang dikirimkan ke bot ini akan otomatis dipost ke channel @BaseCPF, gunakan hastag dibawah untuk mengirim pesan:
+
+#FwbBoy / #FwbGirl : untuk mencari teman, pasangan, partner dll.
+#FwbAsk : untuk bertanya.
+#FwbSpill : untuk spill sesuatu
+#FwbStory : untuk berbagi cerita/pengalaman.
+
+Contoh :
+kaka itu mau di entot asal asalan ga? #FwbBoy
+
+top up coin hubungi @othentix
+rate coin Rp. 1000/100 coin
+""")
 
 gagalkirim_msg = os.getenv("GAGAL_KIRIM", """
-{mention}, Pesan Mu Gagal Terkirim Silahkan Gunakan Hashtag Berikut:
+(mention) pesanmu gagal terkirim 🙅, harap gunakan hastag : 
 
-#Boy / #Girl (Untuk Mencari Pasangan, Teman , Partner FWB)
-#Ask (Untuk Bertanya)
-#Story (Untuk Berbagi Cerita)
-#Spill (Untuk Spill Masalah)
-#Find (Untuk Mencari Pasangan, Teman, Partner FWB)
+#FwbBoy / #FwbGirl : untuk mencari teman, pasangan, partner dll.
+#FwbAsk : untuk bertanya
+#FwbSpill : untuk spill sesuatu
+#FwbStory : untuk berbagi cerita/pengalaman.
+
+untuk pertanyaan silahkan gabung @CariParterFwb
 """)
