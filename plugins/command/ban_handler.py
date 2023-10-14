@@ -17,8 +17,7 @@ async def ban_handler(client: Client, msg: types.Message):
         db = Database(int(target))
         if await db.cek_user_didatabase():
             status = [
-                'admin', 'owner', 'talent', 'daddy sugar', 'moans girl',
-                'moans boy', 'girlfriend rent', 'boyfriend rent'
+                'admin', 'owner'
             ]
             member = db.get_data_pelanggan()
             if member.status == 'admin' in status:
