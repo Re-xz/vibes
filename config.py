@@ -8,8 +8,8 @@ api_hash = os.getenv("API_HASH", "ffdc688dc4eee8d2585cb24155188432")
 bot_token = os.getenv("BOT_TOKEN", "6652895969:AAF640FWhEeF4BjKLtId6IGYTNIOIr6XVG0")
 # =========================================================== #
 
-db_url = os.getenv("DB_URL", "mongodb+srv://fadhil:fadhil123@cluster0.jvnx5r6.mongodb.net/?retryWrites=true&w=majority")
-db_name = os.getenv("DB_NAME", "fadhil") #bisa diganti sesuai kebutuhan
+db_url = os.getenv("DB_URL", "mongodb+srv://resibylla:sibylla123@cluster0.0vqkoba.mongodb.net/?retryWrites=true&w=majority")
+db_name = os.getenv("DB_NAME", "sibylla") #bisa diganti sesuai kebutuhan
 # =========================================================== #
 
 channel_1 = int(os.getenv("CHANNEL_1", "-1001976588675"))
