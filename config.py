@@ -33,11 +33,11 @@ pic_boy = os.getenv("PIC_BOY", "https://telegra.ph/file/c67bd36023648dc777bd9.jp
 pic_girl = os.getenv("PIC_GIRL", "https://telegra.ph/file/cb885bcbf5081dbd45f27.jpg")
 # =========================================================== #
 
-pesan_join = os.getenv("PESAN_JOIN", "Halo Kamu harus bergabung di CHANNEL/GROUP Terlebih dahulu untuk mengirim pesan ke @BaseCPF")
+pesan_join = os.getenv("PESAN_JOIN", "Halo Kamu harus bergabung di CHANNEL/GROUP Terlebih dahulu untuk mengirim pesan ke @FriendWithBenefitsBase")
 start_msg = os.getenv("START_MSG", """
 Halo {mention} 😍
 
-CPF Autopost bot adalah bot autopost, semua pesan yang dikirimkan ke bot ini akan otomatis dipost ke channel @BaseCPF, gunakan hastag dibawah untuk mengirim pesan:
+CPF Autopost bot adalah bot autopost, semua pesan yang dikirimkan ke bot ini akan otomatis dipost ke channel @FriendWithBenefitsBase, gunakan hastag dibawah untuk mengirim pesan:
 
 #FwbBoy / #FwbGirl : untuk mencari teman, pasangan, partner dll.
 #FwbAsk : untuk bertanya.
