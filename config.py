@@ -20,7 +20,7 @@ channel_log = int(os.getenv("CHANNEL_LOG", "-1001710331413"))
 id_admin = int(os.getenv("ID_ADMIN", "957521020"))
 # =========================================================== #
 
-batas_kirim = int(os.getenv("BATAS_KIRIM", "5"))
+batas_kirim = int(os.getenv("BATAS_KIRIM", "3"))
 # =========================================================== #
 
 biaya_kirim = int(os.getenv("BIAYA_KIRIM", "20"))
@@ -36,14 +36,14 @@ pic_girl = os.getenv("PIC_GIRL", "https://telegra.ph/file/cb885bcbf5081dbd45f27.
 pesan_join = os.getenv("PESAN_JOIN", """
 Halo Sobat CPF 👋
 
-Kamu harus bergabung di CHANNEL & GROUP Terlebih dahulu untuk mengirim pesan ke @BaseCPF
+Kamu harus bergabung di CHANNEL & GROUP Terlebih dahulu untuk mengirim pesan ke @MenfessCPF
 
 Join Ke Channel & Group Kemudian Tekan /start ⤵️
 """)
 start_msg = os.getenv("START_MSG", """
 Halo {mention} 😍
 
-CPF Autopost bot adalah bot autopost, semua pesan yang dikirimkan ke bot ini akan otomatis dipost ke channel @BaseCPF, gunakan hastag dibawah untuk mengirim pesan:
+CPF Autopost bot adalah bot autopost, semua pesan yang dikirimkan ke bot ini akan otomatis dikirim ke channel @MenfessCPF, gunakan hastag dibawah untuk mengirim pesan:
 
 #CpfBoy / #CpfGirl : untuk mencari teman, pasangan, partner dll.
 #CpfAsk : untuk bertanya.
