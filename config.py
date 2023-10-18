@@ -5,7 +5,7 @@ load_dotenv()
 
 api_id = int(os.getenv("API_ID", "29486311"))
 api_hash = os.getenv("API_HASH", "ffdc688dc4eee8d2585cb24155188432")
-bot_token = os.getenv("BOT_TOKEN", "6738154204:AAEjVRKFsCH1WzmHH6Ig7RB9TJgTw0W5_RQ")
+bot_token = os.getenv("BOT_TOKEN", "")
 # =========================================================== #
 
 db_url = os.getenv("DB_URL", "mongodb+srv://fadhil:fadhil123@cluster0.jvnx5r6.mongodb.net/?retryWrites=true&w=majority")
