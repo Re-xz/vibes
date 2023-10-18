@@ -26,26 +26,32 @@ batas_kirim = int(os.getenv("BATAS_KIRIM", "2"))
 biaya_kirim = int(os.getenv("BIAYA_KIRIM", "20"))
 # =========================================================== #
 
-hastag = os.getenv("HASTAG", "#ss #aa #FwbBoy #FwbAsk #FwbGirl #FwbSpill #FwbStory").replace(" ", "|").lower()
+hastag = os.getenv("HASTAG", "#ss #aa #CpfBoy #CpfAsk #CpfGirl #CpfSpill #CpfStory").replace(" ", "|").lower()
 # =========================================================== #
 
 pic_boy = os.getenv("PIC_BOY", "https://telegra.ph/file/c67bd36023648dc777bd9.jpg")
 pic_girl = os.getenv("PIC_GIRL", "https://telegra.ph/file/cb885bcbf5081dbd45f27.jpg")
 # =========================================================== #
 
-pesan_join = os.getenv("PESAN_JOIN", "Halo Kamu harus bergabung di CHANNEL/GROUP Terlebih dahulu untuk mengirim pesan ke @FriendWithBenefitsBase")
+pesan_join = os.getenv("PESAN_JOIN", """
+Halo {mention}
+
+Kamu harus bergabung di CHANNEL & GROUP Terlebih dahulu untuk mengirim pesan ke @BaseCPF
+
+Join Ke Channel & Group Kemudian Tekan /Start ⤵️
+""")
 start_msg = os.getenv("START_MSG", """
 Halo {mention} 😍
 
 CPF Autopost bot adalah bot autopost, semua pesan yang dikirimkan ke bot ini akan otomatis dipost ke channel @FriendWithBenefitsBase, gunakan hastag dibawah untuk mengirim pesan:
 
-#FwbBoy / #FwbGirl : untuk mencari teman, pasangan, partner dll.
-#FwbAsk : untuk bertanya.
-#FwbSpill : untuk spill sesuatu
-#FwbStory : untuk berbagi cerita/pengalaman.
+#CpfBoy / #CpfGirl : untuk mencari teman, pasangan, partner dll.
+#CpfAsk : untuk bertanya.
+#CpfSpill : untuk spill sesuatu
+#CpfStory : untuk berbagi cerita/pengalaman.
 
 Contoh :
-kaka itu mau di entot asal asalan ga? #FwbBoy
+kaka itu mau di entot asal asalan ga? #CpfBoy
 
 top up coin hubungi @othentix
 rate coin Rp. 1000/100 coin
