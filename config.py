@@ -34,11 +34,11 @@ pic_girl = os.getenv("PIC_GIRL", "https://telegra.ph/file/cb885bcbf5081dbd45f27.
 # =========================================================== #
 
 pesan_join = os.getenv("PESAN_JOIN", """
-Halo {mention}
+Halo Sobat CPF 👋
 
 Kamu harus bergabung di CHANNEL & GROUP Terlebih dahulu untuk mengirim pesan ke @BaseCPF
 
-Join Ke Channel & Group Kemudian Tekan /Start ⤵️
+Join Ke Channel & Group Kemudian Tekan /start ⤵️
 """)
 start_msg = os.getenv("START_MSG", """
 Halo {mention} 😍
@@ -47,23 +47,20 @@ CPF Autopost bot adalah bot autopost, semua pesan yang dikirimkan ke bot ini aka
 
 #CpfBoy / #CpfGirl : untuk mencari teman, pasangan, partner dll.
 #CpfAsk : untuk bertanya.
-#CpfSpill : untuk spill sesuatu
+#CpfSpill : untuk spill sesuatu.
 #CpfStory : untuk berbagi cerita/pengalaman.
 
 Contoh :
-kaka itu mau di entot asal asalan ga? #CpfBoy
-
-top up coin hubungi @othentix
-rate coin Rp. 1000/100 coin
+i have crush on you #CpfSpill
 """)
 
 gagalkirim_msg = os.getenv("GAGAL_KIRIM", """
 {mention} pesanmu gagal terkirim 🙅, harap gunakan hastag : 
 
-#FwbBoy / #FwbGirl : untuk mencari teman, pasangan, partner dll.
-#FwbAsk : untuk bertanya
-#FwbSpill : untuk spill sesuatu
-#FwbStory : untuk berbagi cerita/pengalaman.
+#CpfBoy / #CpfGirl : untuk mencari teman, pasangan, partner dll.
+#CpfAsk : untuk bertanya
+#CpfSpill : untuk spill sesuatu
+#CpfStory : untuk berbagi cerita/pengalaman.
 
 untuk pertanyaan silahkan gabung @CariParterFwb
 """)
