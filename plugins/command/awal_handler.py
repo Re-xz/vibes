@@ -91,7 +91,7 @@ async def help_handler(client, msg):
     db = Database(msg.from_user.id)
     member = db.get_data_pelanggan()
     pesan = "Supported commands\n"
-    pesan += '/status — melihat status\n'
+    pesan += '/status — melihat status\n\n'
     pesan += 'top up coin hubungi @othentix\n'
     if member.status == 'admin':
         pesan += '\nHanya Admin\n'
