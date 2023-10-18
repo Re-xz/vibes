@@ -43,7 +43,7 @@ Join Ke Channel & Group Kemudian Tekan /Start ⤵️
 start_msg = os.getenv("START_MSG", """
 Halo {mention} 😍
 
-CPF Autopost bot adalah bot autopost, semua pesan yang dikirimkan ke bot ini akan otomatis dipost ke channel @FriendWithBenefitsBase, gunakan hastag dibawah untuk mengirim pesan:
+CPF Autopost bot adalah bot autopost, semua pesan yang dikirimkan ke bot ini akan otomatis dipost ke channel @BaseCPF, gunakan hastag dibawah untuk mengirim pesan:
 
 #CpfBoy / #CpfGirl : untuk mencari teman, pasangan, partner dll.
 #CpfAsk : untuk bertanya.
