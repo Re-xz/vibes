@@ -12,12 +12,12 @@ db_url = os.getenv("DB_URL", "mongodb+srv://fadhil:fadhil123@cluster0.jvnx5r6.mo
 db_name = os.getenv("DB_NAME", "fadhil") #bisa diganti sesuai kebutuhan
 # =========================================================== #
 
-channel_1 = int(os.getenv("CHANNEL_1", "-1002118815380"))
-channel_2 = int(os.getenv("CHANNEL_2", "-1001861463708")) #untuk group comentar user
-channel_log = int(os.getenv("CHANNEL_LOG", "-1002118815380"))
+channel_1 = int(os.getenv("CHANNEL_1", "-1001976588675"))
+channel_2 = int(os.getenv("CHANNEL_2", "-1001610283560")) #untuk group comentar user
+channel_log = int(os.getenv("CHANNEL_LOG", "-1001710331413"))
 # =========================================================== #
 
-id_admin = int(os.getenv("ID_ADMIN", "5800485350"))
+id_admin = int(os.getenv("ID_ADMIN", "957521020"))
 # =========================================================== #
 
 batas_kirim = int(os.getenv("BATAS_KIRIM", "5"))
