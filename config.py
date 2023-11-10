@@ -8,11 +8,11 @@ api_hash = os.getenv("API_HASH", "ffdc688dc4eee8d2585cb24155188432")
 bot_token = os.getenv("BOT_TOKEN", "")
 # =========================================================== #
 
-db_url = os.getenv("DB_URL", "mongodb+srv://fadhil:fadhil123@cluster0.jvnx5r6.mongodb.net/?retryWrites=true&w=majority")
-db_name = os.getenv("DB_NAME", "fadhil") #bisa diganti sesuai kebutuhan
+db_url = os.getenv("DB_URL", "mongodb+srv://kikoy:kikoy69@cluster0.vooxu.mongodb.net/?retryWrites=true&w=majority")
+db_name = os.getenv("DB_NAME", "dxtfess") #bisa diganti sesuai kebutuhan
 # =========================================================== #
 
-channel_1 = int(os.getenv("CHANNEL_1", "-1002014652269"))
+channel_1 = int(os.getenv("CHANNEL_1", "-1002034769079"))
 channel_2 = int(os.getenv("CHANNEL_2", "-1001610283560")) #untuk group comentar user
 channel_log = int(os.getenv("CHANNEL_LOG", "-1001710331413"))
 # =========================================================== #
