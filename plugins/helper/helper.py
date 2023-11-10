@@ -55,7 +55,7 @@ class Helper():
         link_1 = await self.bot.export_chat_invite_link(config.channel_1)
         link_2 = await self.bot.export_chat_invite_link(config.channel_2)
         markup = InlineKeyboardMarkup([
-            [InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ ᴄᴘғ', url=link_1), InlineKeyboardButton('ɢʀᴏᴜᴘ ᴄᴘғ', url=link_2)],
+            [InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ ᴅxᴛ', url=link_1), InlineKeyboardButton('ɢʀᴏᴜᴘ ᴅxᴛ', url=link_2)],
             [InlineKeyboardButton('ᴄᴏʙᴀ ʟᴀɢɪ', url=f'https://t.me/{self.bot.username}?start=start')]
         ])
         await self.bot.send_message(self.user_id, config.pesan_join, reply_to_message_id=self.message.id, reply_markup=markup)
@@ -102,7 +102,7 @@ class Helper():
             pesan += f"├ Cek Pesan : <a href='{link}'>Lihat pesan</a>\n"
             pesan += f"└ Waktu -: {self.get_time().full_time}"
         else:
-            pesan = "Jangan Lupa Join @CariPartnerFwb"
+            pesan = "Jangan Lupa Join @Dextructive"
         await self.bot.send_message(config.channel_log, pesan, enums.ParseMode.HTML, disable_web_page_preview=True)
 
     def formatrupiah(self, uang):
