@@ -8,7 +8,7 @@ api_hash = os.getenv("API_HASH", "ffdc688dc4eee8d2585cb24155188432")
 bot_token = os.getenv("BOT_TOKEN", "")
 # =========================================================== #
 
-db_url = os.getenv("DB_URL", "mongodb+srv://kikoy:kikoy69@cluster0.vooxu.mongodb.net/?retryWrites=true&w=majority")
+db_url = os.getenv("DB_URL", "mongodb+srv://kikoy:kikoy6969@cluster0.vooxu.mongodb.net/?retryWrites=true&w=majority")
 db_name = os.getenv("DB_NAME", "dxtfess") #bisa diganti sesuai kebutuhan
 # =========================================================== #
 
@@ -26,7 +26,7 @@ batas_kirim = int(os.getenv("BATAS_KIRIM", "3"))
 biaya_kirim = int(os.getenv("BIAYA_KIRIM", "20"))
 # =========================================================== #
 
-hastag = os.getenv("HASTAG", "#ss #aa #CpfBoy #CpfAsk #CpfGirl #CpfSpill #CpfStory").replace(" ", "|").lower()
+hastag = os.getenv("HASTAG", "#ss #aa #DxtBoy #DxtAsk #DxtGirl #DxtSpill #DxtStory").replace(" ", "|").lower()
 # =========================================================== #
 
 pic_boy = os.getenv("PIC_BOY", "https://telegra.ph/file/c67bd36023648dc777bd9.jpg")
@@ -34,33 +34,33 @@ pic_girl = os.getenv("PIC_GIRL", "https://telegra.ph/file/cb885bcbf5081dbd45f27.
 # =========================================================== #
 
 pesan_join = os.getenv("PESAN_JOIN", """
-Halo Sobat CPF 👋
+Halo Sobat DxT 👋
 
-Kamu harus bergabung di CHANNEL & GROUP Terlebih dahulu untuk mengirim pesan ke @MenfessCPF
+Kamu harus bergabung di CHANNEL & GROUP Terlebih dahulu untuk mengirim pesan ke @dxtmenfess
 
 Join Ke Channel & Group Kemudian Tekan /start ⤵️
 """)
 start_msg = os.getenv("START_MSG", """
 Halo {mention} 😍
 
-CPF Autopost bot adalah bot autopost, semua pesan yang dikirimkan ke bot ini akan otomatis dikirim ke channel @MenfessCPF, gunakan hastag dibawah untuk mengirim pesan:
+DxT Autopost adalah bot autopost, semua pesan yang dikirimkan ke bot ini akan otomatis dikirim ke channel @dxtmenfess, gunakan hastag dibawah untuk mengirim pesan:
 
-#CpfBoy / #CpfGirl : untuk mencari teman, pasangan, partner dll.
-#CpfAsk : untuk bertanya.
-#CpfSpill : untuk spill sesuatu.
-#CpfStory : untuk berbagi cerita/pengalaman.
+#DxtBoy / #DxtGirl : untuk mencari teman, pasangan, partner dll.
+#DxtAsk : untuk bertanya.
+#DxtSpill : untuk spill sesuatu.
+#DxtStory : untuk berbagi cerita/pengalaman.
 
 Contoh :
-i have crush on you #CpfSpill
+i have crush on you #DxtSpill
 """)
 
 gagalkirim_msg = os.getenv("GAGAL_KIRIM", """
 {mention} pesanmu gagal terkirim 🙅, harap gunakan hastag : 
 
-#CpfBoy / #CpfGirl : untuk mencari teman, pasangan, partner dll.
-#CpfAsk : untuk bertanya
-#CpfSpill : untuk spill sesuatu
-#CpfStory : untuk berbagi cerita/pengalaman.
+#DxtBoy / #DxtGirl : untuk mencari teman, pasangan, partner dll.
+#DxtAsk : untuk bertanya
+#DxtSpill : untuk spill sesuatu
+#DxtStory : untuk berbagi cerita/pengalaman.
 
-untuk pertanyaan silahkan gabung @CariParterFwb
+untuk pertanyaan silahkan gabung @Dextructive
 """)
