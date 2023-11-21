@@ -92,7 +92,12 @@ async def help_handler(client, msg):
     member = db.get_data_pelanggan()
     pesan = "Supported commands\n"
     pesan += '/status — melihat status\n\n'
-    pesan += 'top up coin hubungi @othentix\n'
+    pesan += 'gunakan hastag dibawah untuk mengirim pesan\n'
+    pesan += '•#ctpboy - untuk identitas laki-laki\n'
+    pesan += '•#ctpgirl - untuk identitas perempuan\n'
+    pesan += '•#ctpask - untuk bertanya\n'
+    pesan += '•#ctpspill - untuk spill sesuatu\n'
+    pesan += '•#ctpstory - untuk berbagi cerita\n'
     if member.status == 'admin':
         pesan += '\nHanya Admin\n'
         pesan += '/tf_coin — transfer coin\n'
