@@ -34,9 +34,7 @@ pic_girl = os.getenv("PIC_GIRL", "https://telegra.ph/file/cb885bcbf5081dbd45f27.
 # =========================================================== #
 
 pesan_join = os.getenv("PESAN_JOIN", """
-Halo {name} 👋
-
-Kamu harus bergabung di CHANNEL & GROUP Terlebih dahulu untuk mengirim pesan ke @ctpmenfess
+Halo👋 kamu harus bergabung di CHANNEL & GROUP Terlebih dahulu untuk mengirim pesan ke @ctpmenfess
 
 Join Ke Channel & Group Kemudian Tekan /help ⤵️
 """)
