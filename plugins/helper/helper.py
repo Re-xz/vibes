@@ -55,7 +55,7 @@ class Helper():
         link_1 = await self.bot.export_chat_invite_link(config.channel_1)
         link_2 = await self.bot.export_chat_invite_link(config.channel_2)
         markup = InlineKeyboardMarkup([
-            [InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ ᴅxᴛ', url=link_1), InlineKeyboardButton('ɢʀᴏᴜᴘ ᴅxᴛ', url=link_2)],
+            [InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ ᴄᴛᴘ', url=link_1), InlineKeyboardButton('ɢʀᴏᴜᴘ ᴄᴛᴘ', url=link_2)],
             [InlineKeyboardButton('ᴄᴏʙᴀ ʟᴀɢɪ', url=f'https://t.me/{self.bot.username}?start=start')]
         ])
         await self.bot.send_message(self.user_id, config.pesan_join, reply_to_message_id=self.message.id, reply_markup=markup)
