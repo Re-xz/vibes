@@ -8,7 +8,7 @@ async def start_handler(client: Client, msg: types.Message):
     first = msg.from_user.first_name
     last = msg.from_user.last_name
     fullname = first if not last else first + ' ' + last
-    username = '@othentix' if not msg.from_user.username else '@' + msg.from_user.username
+    username = '@reonisme' if not msg.from_user.username else '@' + msg.from_user.username
     mention = msg.from_user.mention
     await msg.reply_text(
         text = config.start_msg.format(
@@ -93,11 +93,11 @@ async def help_handler(client, msg):
     pesan = "Supported commands\n"
     pesan += '/status — melihat status\n\n'
     pesan += 'gunakan hastag dibawah untuk mengirim pesan\n'
-    pesan += '•#ctpboy - untuk identitas laki-laki\n'
-    pesan += '•#ctpgirl - untuk identitas perempuan\n'
-    pesan += '•#ctpask - untuk bertanya\n'
-    pesan += '•#ctpspill - untuk spill sesuatu\n'
-    pesan += '•#ctpstory - untuk berbagi cerita\n'
+    pesan += '•#fwbboy - untuk identitas laki-laki\n'
+    pesan += '•#fwbgirl - untuk identitas perempuan\n'
+    pesan += '•#fwbspill - untuk spill sesuatu\n'
+    pesan += '•#fwbstory - untuk berbagi cerita\n\n'
+    pesan += 'wajib join @friendwithbenefitx & @caripartnerfwb untuk mengirim pesan\n'
     if member.status == 'admin':
         pesan += '\nHanya Admin\n'
         pesan += '/tf_coin — transfer coin\n'
