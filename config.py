@@ -39,7 +39,7 @@ Kamu harus join di CHANNEL & GROUP yang ada dibawah untuk dapat mengirim pesan k
 start_msg = os.getenv("START_MSG", """
 Halo {mention} 😍
 
-fwbbasexbot adalah bot promote yang dapat digunakan untuk mencari teman, pacar, dll serta dapat digunakan untuk mengirim menfess, gunakan hastag dibawah untuk mengirim pesan:
+fwbbase bot adalah bot promote yang dapat digunakan untuk mencari teman, pacar, dll serta dapat digunakan untuk mengirim menfess, gunakan hastag dibawah untuk mengirim pesan:
 
 #FwbBoy / #FwbGirl : untuk mencari teman, pasangan, partner dll.
 #FwbSpill : untuk spill sesuatu.
