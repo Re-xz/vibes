@@ -12,8 +12,8 @@ db_url = os.getenv("DB_URL", "mongodb+srv://kikoy:kikoy6969@cluster0.vooxu.mongo
 db_name = os.getenv("DB_NAME", "fwbx") #bisa diganti sesuai kebutuhan
 # =========================================================== #
 
-channel_1 = int(os.getenv("CHANNEL_1", "-1001801771890"))
-channel_2 = int(os.getenv("CHANNEL_2", "-1001913052601")) #untuk group comentar user
+channel_1 = int(os.getenv("CHANNEL_1", "-1001197188587"))
+channel_2 = int(os.getenv("CHANNEL_2", "-1001680642097")) #untuk group comentar user
 channel_log = int(os.getenv("CHANNEL_LOG", "-1002109996381"))
 # =========================================================== #
 
@@ -29,8 +29,8 @@ biaya_kirim = int(os.getenv("BIAYA_KIRIM", "20"))
 hastag = os.getenv("HASTAG", "#fwbgirl #fwbboy #fwbspill #fwbstory").replace(" ", "|").lower()
 # =========================================================== #
 
-pic_boy = os.getenv("PIC_BOY", "https://telegra.ph/boy-12-01-28")
-pic_girl = os.getenv("PIC_GIRL", "https://telegra.ph/ss-girl-12-01")
+pic_boy = os.getenv("PIC_BOY", "https://telegra.ph/fwbboy-12-03")
+pic_girl = os.getenv("PIC_GIRL", "https://telegra.ph/fwbgirl-12-03")
 # =========================================================== #
 
 pesan_join = os.getenv("PESAN_JOIN", """
