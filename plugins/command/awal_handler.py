@@ -93,11 +93,11 @@ async def help_handler(client, msg):
     pesan = "Supported commands\n"
     pesan += '/status — melihat status\n\n'
     pesan += 'gunakan hastag dibawah untuk mengirim pesan\n'
-    pesan += '•#fwbboy - untuk identitas laki-laki\n'
-    pesan += '•#fwbgirl - untuk identitas perempuan\n'
-    pesan += '•#fwbspill - untuk spill sesuatu\n'
-    pesan += '•#fwbstory - untuk berbagi cerita\n\n'
-    pesan += 'wajib join @friendwithbenefitx & @caripartnerfwb untuk mengirim pesan\n'
+    pesan += '•#vibeboy - untuk identitas laki-laki\n'
+    pesan += '•#vibegirl - untuk identitas perempuan\n'
+    pesan += '•#vibespill - untuk spill sesuatu\n'
+    pesan += '•#vibestory - untuk berbagi cerita\n\n'
+    pesan += 'bot create by @fakenology\n'
     if member.status == 'admin':
         pesan += '\nHanya Admin\n'
         pesan += '/tf_coin — transfer coin\n'
