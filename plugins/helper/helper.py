@@ -55,7 +55,7 @@ class Helper():
         link_1 = await self.bot.export_chat_invite_link(config.channel_1)
         link_2 = await self.bot.export_chat_invite_link(config.channel_2)
         markup = InlineKeyboardMarkup([
-            [InlineKeyboardButton('CHANNEL FWB', url=link_1), InlineKeyboardButton('GROUP FWB', url=link_2)],
+            [InlineKeyboardButton('VIBES CHANNEL', url=link_1), InlineKeyboardButton('VIBES GROUP', url=link_2)],
             [InlineKeyboardButton('COBA LAGI', url=f'https://t.me/{self.bot.username}?start=start')]
         ])
         await self.bot.send_message(self.user_id, config.pesan_join, reply_to_message_id=self.message.id, reply_markup=markup)
