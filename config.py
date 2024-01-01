@@ -53,5 +53,5 @@ gagalkirim_msg = os.getenv("GAGAL_KIRIM", """
 #VibeSpill : untuk spill sesuatu
 #VibeStory : untuk berbagi cerita/pengalaman.
 
-bot create by @fakenology
+bot create by @flyxre
 """)
