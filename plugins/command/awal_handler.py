@@ -97,7 +97,7 @@ async def help_handler(client, msg):
     pesan += '•#vibegirl - untuk identitas perempuan\n'
     pesan += '•#vibespill - untuk spill sesuatu\n'
     pesan += '•#vibestory - untuk berbagi cerita\n\n'
-    pesan += 'bot create by @fakenology\n'
+    pesan += 'bot create by @flyxre\n'
     if member.status == 'admin':
         pesan += '\nHanya Admin\n'
         pesan += '/tf_coin — transfer coin\n'
